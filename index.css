@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background: #1f2937;
+    height: 100vh;
+    color: white;
+}
+
+.green-text {
+    color: #55f991;
+}
+
+#container p {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+button {
+    background: #10b981;
+    border:none;
+    padding: 8px;
+    color: white;
+    border-radius: 2px;
+}
+
+hr {
+    border: 1px solid #2f3e53;
+    margin: 20px;
+}
+
+.pass-container {
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+    margin-top: 10px;
+}
+
+.pass-container > div {
+    background: #273549;
+    width: 35vw;
+    height: 8vh;
+    border-radius: 6px;
+}
+
+.pass-container > div p {
+    text-align: center;
+}
